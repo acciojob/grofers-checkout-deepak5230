@@ -1,2 +1,13 @@
-
-/* Your CSS Code here. */
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        .total-cell {
+            text-align: right;
+            font-weight: bold;
+        }
